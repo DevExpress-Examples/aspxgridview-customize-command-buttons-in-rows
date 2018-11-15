@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/HideCommandButtons/Default.aspx) (VB: [Default.aspx.vb](./VB/HideCommandButtons/Default.aspx.vb))
+* [Default.aspx.cs](./CS/HideCommandButtons/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/HideCommandButtons/Default.aspx.vb))
+<!-- default file list end -->
 # How to customize command buttons in individual rows
 
 
