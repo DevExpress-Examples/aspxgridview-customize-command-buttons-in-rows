@@ -25,15 +25,15 @@ namespace HideCommandButtons {
             return table;
         }
 
-        protected void ASPxGridView1_CommandButtonInitialize(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCommandButtonEventArgs e) {
+        protected void ASPxGridView1_CommandButtonInitialize(object sender, DevExpress.Web.ASPxGridViewCommandButtonEventArgs e) {
             bool isOddRow = e.VisibleIndex % 2 == 0;
             if(isOddRow) {  // some condition
                 // hide the Edit button
-                if(e.ButtonType == DevExpress.Web.ASPxGridView.ColumnCommandButtonType.Edit)
+                if(e.ButtonType == DevExpress.Web.ColumnCommandButtonType.Edit)
                     e.Visible = false;
 
                 // disable the selction checkbox
-                if(e.ButtonType == DevExpress.Web.ASPxGridView.ColumnCommandButtonType.SelectCheckbox)
+                if(e.ButtonType == DevExpress.Web.ColumnCommandButtonType.SelectCheckbox)
                     e.Enabled = false;
             }
         }

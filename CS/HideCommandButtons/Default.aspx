@@ -1,10 +1,10 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HideCommandButtons._Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web" TagPrefix="dxe" %>
 
-<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dxwgv" %>
+<%@ Register Assembly="DevExpress.Web.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web" TagPrefix="dxwgv" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -17,15 +17,7 @@
     <div>
         <dxwgv:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" KeyFieldName="ID" OnCommandButtonInitialize="ASPxGridView1_CommandButtonInitialize">
             <Columns>
-                <dxwgv:GridViewCommandColumn ShowSelectCheckbox="True" VisibleIndex="0" ButtonType="Button">
-                    <EditButton Visible="True">
-                    </EditButton>
-                    <NewButton Visible="True">
-                    </NewButton>
-                    <DeleteButton Visible="True">
-                    </DeleteButton>
-                    <ClearFilterButton Visible="True">
-                    </ClearFilterButton>
+                <dxwgv:GridViewCommandColumn ShowSelectCheckbox="True" VisibleIndex="0" ButtonType="Button" ShowEditButton="true" ShowDeleteButton="true">
                 </dxwgv:GridViewCommandColumn>
                 <dxwgv:GridViewDataTextColumn FieldName="ID" VisibleIndex="1">
                 </dxwgv:GridViewDataTextColumn>
