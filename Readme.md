@@ -25,6 +25,7 @@ To do this, handle the [CommandButtonInitialize](https://docs.devexpress.com/Asp
 ## Documentation
 
 * [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView)
+* [Grid View - Command Columns](https://docs.devexpress.com/AspNet/3701/components/grid-view/concepts/data-representation-basics/columns/command-columns)
 * [Grid View - Examples](https://docs.devexpress.com/AspNet/3768/components/grid-view/examples)
 
 ## More Examples
