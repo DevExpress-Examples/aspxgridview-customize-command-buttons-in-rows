@@ -15,8 +15,7 @@ This example demonstrates how to hide or disable a [command item](https://docs.d
 
 ![A grid with command buttons](images/grid-with-command-buttons.png)
 
-To do this, handle the [CommandButtonInitialize](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CommandButtonInitialize) event. This event is raised for each built-in command button. In the event handler, use the e.[ButtonType](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridViewCommandButtonEventArgs.ButtonType) property to determine the button type. Then, depending on the button type, use the e.[Visible](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridCommandButtonEventArgs.Visible) or e.[Enabled](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridCommandButtonEventArgs.Enabled) property to
- hide the button, or disable the checkbox.
+To do this, handle the [CommandButtonInitialize](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CommandButtonInitialize) event. This event is raised for each built-in command button. In the event handler, use the e.[ButtonType](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridViewCommandButtonEventArgs.ButtonType) property to determine the button type. Then, depending on the `ButtonType` property value, use the e.[Visible](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridCommandButtonEventArgs.Visible) to hide the button, or use the e.[Enabled](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridCommandButtonEventArgs.Enabled) property to disable the checkbox.
 
 ## Files to Look At
 
