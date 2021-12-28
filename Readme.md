@@ -10,7 +10,7 @@
 <!-- default file list end -->
 # How to customize command buttons in individual rows
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e366/)**
+**[[Run Online]](https://codecentral.devexpress.com/128531502/)**
 <!-- run online end -->
 
 
