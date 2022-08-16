@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Grid View for ASP.NET Web Forms - How to Customize Command Buttons in Individual Rows
+# Grid View for ASP.NET Web Forms - How to customize command buttons in individual rows
 
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128531502/)**
