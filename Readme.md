@@ -6,9 +6,6 @@
 
 # Grid View for ASP.NET Web Forms - How to customize command buttons in individual rows
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128531502/)**
-<!-- run online end -->
 
 
 This example demonstrates how to hide or disable a [command item](https://docs.devexpress.com/AspNet/3689/components/grid-view/visual-elements/command-item) (button or checkbox) in the grid's [command column](https://docs.devexpress.com/AspNet/3701/components/grid-view/concepts/data-representation-basics/columns/command-columns?p=netframework).
