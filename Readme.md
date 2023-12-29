@@ -9,9 +9,6 @@
 * [Default.aspx.cs](./CS/HideCommandButtons/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/HideCommandButtons/Default.aspx.vb))
 <!-- default file list end -->
 # How to customize command buttons in individual rows
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e366/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to hide a command button in the grid's CommandColumn by handling the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewASPxGridView_CommandButtonInitializetopic"><u>ASPxGridView.CommandButtonInitialize</u></a> event.</p>
